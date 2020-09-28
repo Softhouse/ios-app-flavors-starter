@@ -14,6 +14,10 @@
 		1ADA80E224B8540D001213D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA80E024B8540D001213D2 /* LaunchScreen.storyboard */; };
 		1ADA813524B86C07001213D2 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA813424B86C07001213D2 /* FavoritesViewController.swift */; };
 		1ADA813724B86C36001213D2 /* BookmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA813624B86C36001213D2 /* BookmarksViewController.swift */; };
+		1AEF06C82521C22400764935 /* FlavorTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF06C72521C22400764935 /* FlavorTarget.swift */; };
+		1AEF06CC2521C26A00764935 /* FlavorColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF06CB2521C26A00764935 /* FlavorColor.swift */; };
+		1AEF06CF2521C28200764935 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF06CE2521C28200764935 /* UIColor+Extension.swift */; };
+		1AEF06D22521C2A100764935 /* FlavorUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEF06D12521C2A100764935 /* FlavorUIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		1ADA80E324B8540D001213D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ADA813424B86C07001213D2 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		1ADA813624B86C36001213D2 /* BookmarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksViewController.swift; sourceTree = "<group>"; };
+		1AEF06C72521C22400764935 /* FlavorTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorTarget.swift; sourceTree = "<group>"; };
+		1AEF06CB2521C26A00764935 /* FlavorColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorColor.swift; sourceTree = "<group>"; };
+		1AEF06CE2521C28200764935 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		1AEF06D12521C2A100764935 /* FlavorUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorUIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +91,6 @@
 				1ADA811124B85E48001213D2 /* Enums */,
 				1ADA810E24B85DD8001213D2 /* Extensions */,
 				1ADA810F24B85DEA001213D2 /* ViewControllers */,
-				1ADA811024B85E3D001213D2 /* Structs */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -100,6 +107,7 @@
 		1ADA810E24B85DD8001213D2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				1AEF06CE2521C28200764935 /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -107,20 +115,16 @@
 		1ADA810F24B85DEA001213D2 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				1AEF06D12521C2A100764935 /* FlavorUIViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		1ADA811024B85E3D001213D2 /* Structs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Structs;
 			sourceTree = "<group>";
 		};
 		1ADA811124B85E48001213D2 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				1AEF06C72521C22400764935 /* FlavorTarget.swift */,
+				1AEF06CB2521C26A00764935 /* FlavorColor.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -213,9 +217,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AEF06CF2521C28200764935 /* UIColor+Extension.swift in Sources */,
+				1AEF06C82521C22400764935 /* FlavorTarget.swift in Sources */,
+				1AEF06CC2521C26A00764935 /* FlavorColor.swift in Sources */,
 				1ADA813724B86C36001213D2 /* BookmarksViewController.swift in Sources */,
 				1ADA80D624B8540B001213D2 /* AppDelegate.swift in Sources */,
 				1ADA813524B86C07001213D2 /* FavoritesViewController.swift in Sources */,
+				1AEF06D22521C2A100764935 /* FlavorUIViewController.swift in Sources */,
 				1ADA80D824B8540B001213D2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

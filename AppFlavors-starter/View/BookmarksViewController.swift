@@ -13,7 +13,6 @@ class BookmarksViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "Bookmarks"
-        self.view.backgroundColor = .systemGreen
     }
     
 

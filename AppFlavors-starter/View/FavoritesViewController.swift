@@ -13,7 +13,6 @@ class FavoritesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "Favorites"
-        self.view.backgroundColor = .systemBlue
     }
     
 
